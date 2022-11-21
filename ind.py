@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-def sred_geom(*args):
+def sum_mod(*args):
     
     if args:
         a = 0
@@ -14,5 +14,5 @@ def sred_geom(*args):
 
 if __name__ == "__main__":
     
-    print(sred_geom(0, -5, 8.9, 4, 3, -9.5, 67, 3))
-    print(sred_geom())
+    print(sum_mod(0, -5, 8.9, 4, 3, -9.5, 67, 3))
+    print(sum_mod())
